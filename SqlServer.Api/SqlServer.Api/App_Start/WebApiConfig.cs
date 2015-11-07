@@ -26,6 +26,8 @@ namespace SqlServer.Api
             var container = new UnityContainer();
             container.RegisterTypes(AllClasses.FromLoadedAssemblies(), WithMappings.FromAllInterfaces, WithName.TypeName, WithLifetime.Transient);
             config.DependencyResolver = new UnityResolver(container);
+
+            //config.Filters.Add(new UnhandledExceptionFilter());
         }
     }
 }

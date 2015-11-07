@@ -39,6 +39,8 @@ namespace SqlServer.Entity.Repositories.Impl
                     _dbContext.Dispose();
                 }
             }
+
+            _disposed = true;
         }
 
         public void Dispose()
