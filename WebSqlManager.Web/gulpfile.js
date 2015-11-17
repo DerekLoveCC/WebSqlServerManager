@@ -4,15 +4,24 @@ var path = require('path');
 var mocha = require('gulp-mocha');
 var browserSync = require('browser-sync');
 var nodemon = require('gulp-nodemon');
+var jshint = require('gulp-jshint');
 
+gulp.task('build', function () {
+    gulp.src('./node_modules/angular/angular.js')
+        .pipe(gulp.dest('./public/pacakges/angularjs/'));
+
+    gulp.src('./public/angular/**/*.js')
+        .pipe(jshint())
+        .pipe(jshint.reporter('jshint-stylish', {verbose: true}));
+});
 
 /**
  * watch for any LESS file changes
  * if a file change is detected, run the LESS compile gulp task
  */
-gulp.task('watch', function() {
+gulp.task('watch', function () {
     gulp.watch('styles/**/*.less', ['less']);
-}); 
+});
 
 /**
  * compile less files from the ./styles folder
@@ -30,8 +39,8 @@ gulp.task('less', function () {
  * run mocha tests in the ./tests folder
  */
 gulp.task('test', function () {
-    return gulp.src('./tests/test*.js', { read: false })
-    // gulp-mocha needs filepaths so you can't have any plugins before it 
+    return gulp.src('./tests/test*.js', {read: false})
+        // gulp-mocha needs filepaths so you can't have any plugins before it
         .pipe(mocha());
 });
 
@@ -42,7 +51,7 @@ gulp.task('browser-sync', ['nodemon', 'watch'], function () {
     browserSync.init(null, {
         proxy: "http://localhost:3000",
         files: ["public/**/*.*", "views/**/*.*"],
-        browser: "google chrome",
+        browser: "chrome",
         port: 7000,
     });
 });
