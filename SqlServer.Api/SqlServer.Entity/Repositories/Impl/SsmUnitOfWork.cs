@@ -7,21 +7,11 @@ namespace SqlServer.Entity.Repositories.Impl
 {
     public class SsmUnitOfWork : IUnitOfWork, IDisposable
     {
-        private DbContext _dbContext = new SsmDbContext();
+        private readonly DbContext _dbContext = new SsmDbContext();
 
         private IGenericRepository<User> _userRepository;
 
-        public IGenericRepository<User> UserRepository
-        {
-            get
-            {
-                if (_userRepository == null)
-                {
-                    _userRepository = new SsmDbRepository<User>(_dbContext);
-                }
-                return _userRepository;
-            }
-        }
+        public IGenericRepository<User> UserRepository => _userRepository ?? (_userRepository = new SsmDbRepository<User>(_dbContext));
 
         public void Save()
         {
