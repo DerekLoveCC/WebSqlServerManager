@@ -1,0 +1,15 @@
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\SqlServer.Entity.dll.config
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\SqlServer.Entity.dll
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\SqlServer.Entity.pdb
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\EntityFramework.dll
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\EntityFramework.SqlServer.dll
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\SQLite.CodeFirst.dll
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\System.Data.SQLite.dll
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\EntityFramework.xml
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\bin\Debug\System.Data.SQLite.xml
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\obj\Debug\SqlServer.Entity.csprojResolveAssemblyReference.cache
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\obj\Debug\SqlServer.Entity.dll
+D:\Rich\WebSqlServerManager\SqlServer.Api\SqlServer.Entity\obj\Debug\SqlServer.Entity.pdb

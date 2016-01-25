@@ -1,0 +1,7 @@
+D:\Rich\WebSqlServerManager\SqlServer.Api\Tests.Unit.SqlServer.Api\bin\Debug\Tests.Unit.SqlServer.Api.dll
+D:\Rich\WebSqlServerManager\SqlServer.Api\Tests.Unit.SqlServer.Api\bin\Debug\Tests.Unit.SqlServer.Api.pdb
+D:\Rich\WebSqlServerManager\SqlServer.Api\Tests.Unit.SqlServer.Api\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Rich\WebSqlServerManager\SqlServer.Api\Tests.Unit.SqlServer.Api\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Rich\WebSqlServerManager\SqlServer.Api\Tests.Unit.SqlServer.Api\obj\Debug\Tests.Unit.SqlServer.Api.csprojResolveAssemblyReference.cache
+D:\Rich\WebSqlServerManager\SqlServer.Api\Tests.Unit.SqlServer.Api\obj\Debug\Tests.Unit.SqlServer.Api.dll
+D:\Rich\WebSqlServerManager\SqlServer.Api\Tests.Unit.SqlServer.Api\obj\Debug\Tests.Unit.SqlServer.Api.pdb

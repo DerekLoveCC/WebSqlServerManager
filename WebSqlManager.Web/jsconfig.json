@@ -1,6 +1,9 @@
 {
-	"compilerOptions": {
-		"target": "ES5",
-		"module": "commonjs"
-	}
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs"
+  },
+  "files": [
+    "typings/node/node.d.ts"
+  ]
 }
